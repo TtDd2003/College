@@ -1,0 +1,35 @@
+#top
+{
+	 background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('collage.jpg');
+    background-position: center;
+    background-size: cover;
+    padding: 2%;
+    padding-bottom: 4%;
+}
+ul li a{
+	transition: 0.4s ease;
+}
+ul li a:hover{
+	border-bottom: 2px solid #ccc;
+	transform: scale(1.1);
+}
+
+h2{
+	font-weight: bolder;
+    color: #fff;
+    margin-top: 3%;
+}
+.location{
+    width: 80%;
+    margin: auto;
+    padding: 2%;
+}
+iframe{width: 100%;}
+.col-4{margin: auto;}
+.col-4 a{margin-right: 5px;}
+.one,.two,.three{display: flex; margin: 4px;}
+
+footer a{color: coral; font-size:23px;margin: 6px;}
+@media screen and (min-width: 100px) and (max-width: 770px){
+    
+}

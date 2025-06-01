@@ -1,0 +1,52 @@
+*{
+    margin: 2px ;
+    padding: 2px;
+}
+#top
+{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('campus.jpeg');
+    background-position: top;
+    background-size: contain;
+    padding: 0.5rem;
+    padding-bottom: 0.4rem;
+}
+ul li a{
+	transition: 0.4s ease;
+}
+ul li a:hover{
+	border-bottom: 2px solid #ccc;
+	transform: scale(1.1);
+}
+
+h2{
+	font-weight: bolder;
+    color: #fff;
+    margin-top: 1%;
+    padding-bottom: 2%;
+}
+footer a{color: coral; font-size:23px;}
+#body{
+    display: flex;
+}
+#img{outline: 2px solid gray; width: 60%;}
+#img img{width: 100%;}
+#right{
+  width: 30%;
+  margin-left: 5%;
+  height: auto;
+  box-shadow: 3px 3px 3px gray;
+  margin-top: 3rem;
+  border-radius: 0px 12px 12px 12px;
+}
+#right ul li{list-style-type: none; }
+#right button{ float: right;}
+#p{width: 80%; margin: 10px auto;}
+@media screen and (min-width: 100px) and (max-width: 770px){
+  #body{flex-direction: column;}
+   #img{width:70%;margin: auto;}
+   #right{width: 60%;margin: 10px auto;}
+}
+@media screen and (min-width: 100px) and (max-width: 480px){
+  #img{width:90%;margin: auto;}
+   #right{width: 70%;margin: 10px auto;}
+}

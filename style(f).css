@@ -1,0 +1,23 @@
+*{
+    margin: 2px ;
+    padding: 1px;
+}
+#top
+{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('home.jpeg');
+    background-position: top;
+    background-size: contain;
+    padding: 0.5rem;
+    padding-bottom: 0.4rem;
+}
+ul li a{
+	transition: 0.4s ease;
+}
+ul li a:hover{
+	border-bottom: 2px solid #ccc;
+	transform: scale(1.1);
+}
+section{display: flex; border-bottom: 3px solid gray;}
+section img{width: 10%; border-radius: 50%;}
+p{line-height: 7px;}
+
